@@ -24,7 +24,8 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="80"
-                android:text="Total  Value of the Array:" />
+                android:text="Total  Value of the Array:"
+                android:textSize="24sp" />
 
             <TextView
                 android:id="@+id/txtTotal"
@@ -43,7 +44,8 @@
             <TextView
                 android:id="@+id/txtCalculations"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:textSize="18sp" />
         </LinearLayout>
     </LinearLayout>
 </RelativeLayout>
