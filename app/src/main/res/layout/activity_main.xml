@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="10dp"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -23,7 +24,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="80"
-                android:text="Total  Value of the Array" />
+                android:text="Total  Value of the Array:" />
 
             <TextView
                 android:id="@+id/txtTotal"

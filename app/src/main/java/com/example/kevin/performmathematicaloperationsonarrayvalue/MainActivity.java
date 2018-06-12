@@ -17,14 +17,22 @@ public class MainActivity extends AppCompatActivity {
         String oldText;
 
         int[] integerArray = {2, 54, 34, 76, 23, 4 , 7, 86 ,4, 65};
-        int totolValue =0;
+        int totalValue =0;
 
         for (int index = 0; index < integerArray.length; index++){
 
+            //totalValue = totalValue + integerArray[index];
+            //totalValue += integerArray[index];
 
+            oldText = txtCalculations.getText().toString();
+
+            txtCalculations.setText(oldText + totalValue + "+" + integerArray[index] + "=" +
+                    (totalValue += integerArray[index]) + "\n");
 
 
         }
+
+        txtTotal.setText(totalValue + "");
 
 
 
